@@ -26,3 +26,8 @@ main {
 .offcanvas-top{
     height: fit-content;
 }
+
+#dropdownList{
+    top: 0;
+    z-index: 1055; 
+}

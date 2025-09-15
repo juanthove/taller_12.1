@@ -30,6 +30,34 @@
     </div>
   </main>
 
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasTopLabel"></h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body" id="offcanvasContent">
+      <p id="description"></p>
+      <hr>
+      <p class="text-muted mb-0" id="genres"></p>
+
+      <div class="dropdown ms-auto" id="dropdown">
+        <button class="btn btn-secondary dropdown-toggle float-end" id="botonMore" type="button" aria-expanded="false">More</button>
+      </div>
+
+    </div>
+    
+  </div>
+
+
+  <!-- Menu dropdown -->
+    <ul class="dropdown-menu" id="dropdownList">
+      <li class="d-flex justify-content-between m-2">Year: <p class="mb-2" id="year"></p></li>
+      <li class="d-flex justify-content-between m-2">Runtime: <p class="mb-2" id="runtime"></p></li>
+      <li class="d-flex justify-content-between m-2">Budget: <p class="mb-2" id="budget"></p></li>
+      <li class="d-flex justify-content-between m-2">Revenue: <p class="mb-2" id="revenue"></p></li>
+    </ul>
+
+
   <footer class="text-muted py-3">
     <div class="container">
       <p class="float-end mb-1">
@@ -42,6 +70,7 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/search.js"></script>
 
 </body>
 
